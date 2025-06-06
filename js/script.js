@@ -78,18 +78,7 @@ document.addEventListener('DOMContentLoaded', function() {
 });
 
 // Função para criar PDFs de exemplo
-function createSamplePDFs() {
-    // Esta função seria implementada com uma biblioteca como jsPDF
-    // Para este exemplo, vamos apenas criar links que alertam o usuário
-    const downloadButtons = document.querySelectorAll('.download-btn');
-    
-    downloadButtons.forEach(button => {
-        button.addEventListener('click', function(e) {
-            e.preventDefault();
-            alert('Este é um exemplo de download. Em um site real, este botão baixaria um arquivo PDF.');
-        });
-    });
-}
+
 
 // Detectar scroll para animar elementos quando entrarem na viewport
 window.addEventListener('scroll', function() {
